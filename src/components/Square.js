@@ -1,6 +1,7 @@
+
 function Square(){
     return(
-        <div>Square</div>
+        <div className="text-3x1 font-bold underline "> Square</div>
 
     );
 }
