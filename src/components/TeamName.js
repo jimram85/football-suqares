@@ -10,13 +10,13 @@ function TeamName(){
     
     return (
         <form onSubmit={handleSubmit}>
-            <label> Enter first Team Name:
-                <input type='text'
+            <label className="text-violet-500"> Enter first Team Name:
+                <input className="text-orange-500 mx-5 rounded-full border-2 border-black" type='text '
                 value={name}
                 onChange ={(e) => setName (e.target.value)} 
                 />
             </label>
-             <input type = 'submit' />
+             <input className="text-orange-500 rounded-full bg-black p-3 " type = 'submit' />
         </form>
     );
 }

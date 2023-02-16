@@ -1,4 +1,4 @@
-import Square from "./components/Square";
+
 import Grid from "./components/Grid";
 import TeamName from "./components/TeamName";
 
